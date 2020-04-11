@@ -1,8 +1,16 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
     height: auto;
-    height: 512;
-    width: 512;
+    /*width: 512px;*/
+    max-width: 100%;
 
+}
+
+h3{
+    font-family: sans-serif;
+    color: blue;
+    margin: 30px 20px 15px 40px;
 }
